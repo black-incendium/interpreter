@@ -1,0 +1,58 @@
+*
+{
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+textarea
+{
+	resize: none;
+	width: 50%;
+	height: 100%;
+	outline: none;
+	background-color: black;
+	color: white;
+	font-size: 1em;
+	font-family: 'Source Code Pro', monospace;
+	box-sizing: border-box;
+	padding: 20px;
+	position: absolute;
+	border: 2px solid white;
+}
+
+.output
+{
+	left: 0;
+	color: lime;
+	transition: 0.2s;
+}
+
+.output:hover
+{
+	background-color: #111;
+	cursor: pointer;
+}
+
+.input
+{
+	right: 0;
+	color: lightskyblue;
+}
+
+
+@media all and (max-width: 1000px)
+{
+	.input 
+	{
+		top: 0;
+		width: 100%;
+		height: 50%;
+	}
+
+	.output
+	{
+		bottom: 0;
+		width: 100%;
+		height: 50%;
+	}
+} 
