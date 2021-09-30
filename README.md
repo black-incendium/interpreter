@@ -3,9 +3,9 @@ A tree-walk interpreter of new language. Implemented fully in pure javascript, c
 
 ## live version
 Live version of project is available on this page in projects section:\
-[jakubkolodziej.com](jakubkolodziej.com 'homepage')\
+[jakubkolodziej.com](https://www.jakubkolodziej.com 'homepage')\
 direct link:\
-[jakubkolodziej.com/interpreter](jakubkolodziej.com/interpreter 'direct project link')
+[jakubkolodziej.com/interpreter](https://www.jakubkolodziej.com/interpreter 'direct project link')
 
 ## features
 * first-class lambda (anonymous) functions 
